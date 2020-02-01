@@ -17,7 +17,9 @@ def response(sentence):
       return respond
     except Exception:
       return "Please write a valid word!!!"
-
+print("Welcome!")
+print("It is a word meaning bot made by Milind Thakur")
+print("Write a word to find its meaning and write byebot to quit\n")
 while True:
   sentence= input("You: ")
   responsed= response(sentence)
